@@ -1,6 +1,6 @@
 <template>
-  <div class="inputGroup">
-    <input autocomplete="off" required="" type="text" />
+  <div class="textareaGroup">
+    <textarea autocomplete="off" required="" type="text" />
     <label for="name">Normal</label>
   </div>
 </template>
@@ -10,22 +10,25 @@ export default {}
 </script>
 
 <style scoped>
-.inputGroup {
+.textareaGroup {
   max-width: 100%;
   position: relative;
 }
 
-.inputGroup input {
+.textareaGroup textarea {
   font-size: 100%;
   padding: 0.8em;
+  height: 19vh;
+  resize: none;
+  overflow-y: hidden;
   outline: none;
   border: 2px solid rgb(200, 200, 200);
   background-color: transparent;
-  border-radius: 160px;
+  border-radius: 20px;
   width: 100%;
 }
 
-.inputGroup label {
+.textareaGroup label {
   position: absolute;
   left: 0;
   padding: 0.8em;
@@ -35,7 +38,7 @@ export default {}
   color: rgb(100, 100, 100);
 }
 
-.inputGroup :is(input:focus, input:valid) ~ label {
+.textareaGroup :is(textarea:focus, textarea:valid) ~ label {
   transform: translateY(-50%) scale(0.9);
   margin: 0em;
   margin-left: 1.3em;
@@ -43,7 +46,7 @@ export default {}
   background-color: var(--bg-light);
 }
 
-.inputGroup :is(input:focus, input:valid) {
+.textareaGroup :is(textarea:focus, textarea:valid) {
   border-color: var(--text-color-lg);
 }
 </style>

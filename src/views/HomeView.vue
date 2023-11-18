@@ -7,7 +7,10 @@ import InputDisable from '../components/input/texto/InputDisable.vue'
 import InputInvalid from '../components/input/texto/InputInvalid.vue'
 import IconeDireita from '../components/input/icone/IconeDireita.vue'
 import IconeEsquerda from '../components/input/icone/IconeEsquerda.vue'
-import TextareaInput from "../components/inputTex"
+import TextareaInput from '../components/input/TextareaInput.vue'
+import AutoComplete from '../components/input/AutoComplete.vue'
+import InputCalendar from '../components/input/InputCalendar.vue'
+
 </script>
 
 <template>
@@ -44,6 +47,18 @@ import TextareaInput from "../components/inputTex"
         <h3>Textarea</h3>
         <div class="all-inputs">
           <TextareaInput />
+        </div>
+      </div>
+      <div class="input-pesquisa">
+        <h3>AutoComplete</h3>
+        <div class="all-inputs">
+          <AutoComplete />
+        </div>
+      </div>
+      <div class="input-pesquisa">
+        <h3>Calendario</h3>
+        <div class="all-inputs">
+          <InputCalendar />
         </div>
       </div>
     </section>
