@@ -38,11 +38,6 @@ export default {}
   transition: all 0.3s ease;
   color: rgb(100, 100, 100);
 }
-
-.inputGroup :is(input:focus, input:valid)~label {
-
-}
-
 .inputGroup :is(input:focus, input:valid) {
   border-color: var(--text-color-lg);
 }

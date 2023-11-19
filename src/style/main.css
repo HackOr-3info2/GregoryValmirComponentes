@@ -5,45 +5,17 @@
   padding: 0;
   font-family: 'Inter', sans-serif;
   box-sizing: border-box;
+  transition: 0.3s;
   color: var(--text-color-lg);
 }
-.dark-mode * {
-  color: var(--text-color-dk);
-}
-body.light-mode {
-  transition: 0.2s;
-  color: var(--text-color-lg);
-  background-color: var(--bg-light);
-}
-body.dark-mode {
-  transition: 0.2s;
-  background-color: var(--bg-dark);
-}
 
-body.light-mode::-webkit-scrollbar-track {
-  background: var(--bg-light);
-}
-
-body.dark-mode::-webkit-scrollbar-track {
-  background: var(--bg-dark);
-}
 
 ::-webkit-scrollbar {
   width: 8px;
 }
-
-body.light-mode::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   border-radius: 1em;
-  background: var(--primary-color-lg);
-}
-
-body.dark-mode::-webkit-scrollbar-thumb {
-  border-radius: 1em;
-  background: var(--primary-color-dk);
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: var(--secondary-color);
+  background: var(--text-color-lg);
 }
 
 h1,
@@ -52,7 +24,9 @@ h1 span {
   font-weight: 700;
   font-size: 3.125rem;
 }
-
+button a {
+  font-size: 14px;
+}
 h2 {
   font-size: 2.188rem;
 }

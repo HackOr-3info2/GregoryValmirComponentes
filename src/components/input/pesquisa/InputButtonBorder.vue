@@ -47,7 +47,7 @@ export default {}
   position: relative;
   width: 25em;
   height: 50px;
-  background-color: transparent;
+  background-color: #fff;
   border: 3px solid var(--text-color-lg);
   display: flex;
   flex-direction: row-reverse;
@@ -95,7 +95,7 @@ export default {}
   box-sizing: border-box;
   height: 100%;
   width: 21em;
-  background-color: transparent;
+  background-color: #fff;
   border: none;
   outline: none;
   padding-bottom: 4px;
