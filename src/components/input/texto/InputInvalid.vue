@@ -48,10 +48,10 @@ export default {
 
 .inputGroup input:focus~label,
 .inputGroup input:valid~label {
-  transform: translateY(-50%) scale(.9);
+  transform: translateY(-80%) scale(.9);
   margin: 0em;
   margin-left: 1.3em;
-  padding: 0.4em;
+  padding: 0.4em 0.5em 0.1em 0.5em;
   background-color: var(--bg-light);
 }
 
