@@ -5,6 +5,7 @@ import LoaderComp from '../components/LoaderComp.vue'
 import ButtonSection from '../components/section/ButtonSection.vue'
 import ModalSection from '../components/section/ModalSection.vue'
 import TabelaSection from '../components/section/TabelaSection.vue'
+import FooterComp from '../components/Footer/FooterComp.vue'
 </script>
 
 <template>
@@ -21,6 +22,7 @@ import TabelaSection from '../components/section/TabelaSection.vue'
       <TabelaSection />
     </div>
   </main>
+  <FooterComp />
 </template>
 <style scoped>
 h1 {
