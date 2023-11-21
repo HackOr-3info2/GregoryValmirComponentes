@@ -16,11 +16,13 @@ export default {}
 .inputGroup {
   max-width: 100%;
   position: relative;
+  display: flex;
+  align-items: center;
 }
 .icone {
   position: absolute;
-  top: 23%;
-  left: 89%;
+  top: 25%;
+  left: 95%;
 }
 .inputGroup input {
   font-size: 100%;

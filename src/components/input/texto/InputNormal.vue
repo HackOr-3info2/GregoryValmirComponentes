@@ -13,6 +13,8 @@ export default {}
 .inputGroup {
   max-width: 100%;
   position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .inputGroup input {
